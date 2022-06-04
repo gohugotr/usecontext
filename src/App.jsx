@@ -24,7 +24,7 @@ export const ThemeContext = React.createContext(themes.dark)
 // <div style={{ background: tema.background, color: tema.foreground }}>
 
 const App = () => {
-  const [tema, setTema] = useState(themes.dark)
+  const [tema, setTema] = useState({});
 
   const toggleTema = () => {
     if (tema === themes.dark) {
@@ -59,4 +59,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;

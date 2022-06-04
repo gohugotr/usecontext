@@ -1,5 +1,4 @@
-import React from 'react'
-import { useContext } from 'react'
+import React, { useContext }  from 'react'
 import { ThemeContext} from './App'
 
 const Content = () => {
@@ -27,4 +26,4 @@ const Content = () => {
   )
 }
 
-export default Content
+export default Content;
