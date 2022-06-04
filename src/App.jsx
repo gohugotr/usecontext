@@ -1,6 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './App.css'
-import { useState } from 'react'
 import Content from './Content'
 
 const themes = {
