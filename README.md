@@ -15,4 +15,7 @@ Context hook, uygulama genelinde çok yüklü olmayan değişkenleri prop kullan
 
 Kullanım 3 adımda olur.
 
+- ThemeContext tanımlanır ve default değeri verilir.
+`const ThemeContext = React.createContext(theme.dark);`
+
 - 
